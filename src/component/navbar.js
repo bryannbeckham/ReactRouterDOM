@@ -40,6 +40,11 @@ export default class Navbar extends React.Component {
                     Cart
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/pegawai">
+                    Pegawai
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

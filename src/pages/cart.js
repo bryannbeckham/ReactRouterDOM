@@ -81,7 +81,7 @@ export default class Cart extends React.Component {
                       ) ) }
                   </tbody>
               </table>
-              <button className="btn btn-warning m-1" onClick={this.OnDrop}>Hapus</button>
+              <button className="btn btn-warning m-1 btn-sm" onClick={this.OnDrop}>Hapus</button>
               <h5 className="text-dark">
                   Total Harga: Rp {this.state.total}
               </h5>

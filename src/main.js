@@ -4,6 +4,7 @@ import About from './pages/about'
 import Contact from './pages/contact'
 import Gallery from './pages/gallery'
 import Cart from './pages/cart'
+import Pegawai from './pages/pegawai'
 import {Route, Switch} from 'react-router-dom'
 
 
@@ -16,6 +17,7 @@ export default class Main extends React.Component{
                 <Route path="/contact" component={Contact}/>
                 <Route path="/gallery" component={Gallery}/>
                 <Route path="/cart" component={Cart}/>
+                <Route path="/pegawai" component={Pegawai}/>
             </Switch>
         )
     }
